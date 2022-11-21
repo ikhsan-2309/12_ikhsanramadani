@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" integrity="sha384-fZCoUih8XsaUZnNDOiLqnby1tMJ0sE7oBbNk2Xxf5x8Z4SvNQ9j83vFMa/erbVrV" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" style="font-family:cursive;" href="#">Portofolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#aboutt">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#portfolio">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Tables</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Belajar Javascript</a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="belajar_javascript/1_perkenalan.html">Perkenalan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="belajar_javascript/2_atribute.html">Atribute</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="belajar_javascript/3_funsi sederhana.html">Fungsi Sederhana</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid banner" >
+      <div class="container text-center pb-5">
+        <div>
+          <h2 class="display-6 fw-bold text-uppercase">I'm <span id="typed3"></span></h2>
+        </div>
+        <script src="node_modules/typed.js/lib/typed.js"></script>
+        <script> 
+          var typed3 = new Typed('#typed3', {
+            strings: ['Ikhsan Ramadani.', 'Student.', 'Web Developer.'],
+            typeSpeed: 60,
+            backSpeed: 60,
+            smartBackspace: true,
+            loop: true
+          });
+        </script>
+        <div>
+          <p class="fw-lighter">Student, Programmer Freelance, Web Developer</p>
+        </div>
+      </div>
+    </div>
+    <section id="aboutt" class="pt-5 pb-lg-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-6 col-md-6 home-about-left">
+            <img class="img-fluid bg-dark" src="picture/orang1.jpg">
+          </div>
+          <div class="col-lg-5 col-md-6 home-about-right">
+            <h1 class="text-uppercase">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deleniti minima dolores? Inventore maxime itaque minima laborum voluptas voluptatibus reprehenderit, repellendus, accusantium ex dolor expedita. Ipsum, illo eaque, autem, perspiciatis voluptatum facilis totam voluptates voluptate odio labore maxime. Quam, unde fugiat saepe vitae doloremque distinctio quasi earum voluptates tempora minima!
+            </p>
+            <a href="No Projects.html">View Full Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class=" text-center pt-5"><h1 class="text-uppercase">Skills</h1></div>
+        <div class="isi-skills container text-center pt-0 pb-0">
+          <div class="row isi-skills-1-left justify-content-center pt-0">
+            <div class="col-2 text-center pt-5">
+              <div class="cover-image">
+                <img src="picture/HTML.png" alt="">
+                <h5 class="text-capitalize">HTML</h5>
+              </div>
+            </div>
+            <div class="col-2 text-center pt-5">
+              <div class="cover-image">
+                <img src="picture/CSS.png" alt="">
+                <h5 class="text-capitalize">CSS</h5>
+              </div>
+            </div>
+              <div class="col-2 text-center pt-5">
+                <div class="cover-image">
+                    <img src="picture/C.png" alt="">
+                    <h5 class="text-capitalize">C</h5>
+                </div>
+              </div>
+              <div class="col-2 text-center pt-5">
+                <div class="cover-image">
+                  <img src="picture/PHP.png" style="padding-top: 1.2em;" alt="">
+                  <h5 class="text-capitalize pt-3">PHP</h5>
+                </div>
+              </div>
+            </div>
+            <div class="row right justify-content-center">
+              <div class="col-2 pt-2">
+                <div class="cover-images">
+                  <img src="picture/JAVASCRIPT.png" alt="">
+                  <h5 class="text-capitalize">Javascript</h5>
+                </div>
+              </div>
+              <div class="col-2 pt-2">
+                <div class="cover-images">
+                  <img src="picture/JAVA.png" alt="">
+                  <h5 class="text-capitalize">Java</h5>
+                </div>
+              </div>
+              <div class="col-2 pt-2">
+                <div class="cover-images">
+                  <img src="picture/BOOTSTRAP.png" alt="">
+                  <h5 class="text-capitalize">Bootstrap</h5>
+                </div>
+              </div>
+              <div class="col-2 pt-2">
+                <div class="cover-images">
+                  <img src="picture/PYTHON.png" alt="">
+                  <h5 class="text-capitalize">Python</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="pt-0" id="result">
+          <div class="row justify-content-center text-center text-bold pt-5 pb-5">
+            <div class="col-5 pt-2 isi-skills-2-left">
+              <div class="title-result">HTML</div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+              </div>
+            </div>
+            <div class="col-5 pt-2 isi-skills-2-right">
+              <div class="title-result">CSS</div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 90%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="col-5 pt-4 isi-skills-2-left">
+              <div class="title-result">Javascript</div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="col-5 pt-4 isi-skills-2-right">
+              <div class="title-result">PHP</div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+            </div>
+            <div class="col-5 pt-4 isi-skills-2-left">
+              <div class="title-result">Java</div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 60%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+            </div>
+            <div class="col-5 pt-4 right">
+              <div class="title-result">C</div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+            </div>
+            <div class="col-5 pt-4 left">
+              <div class="title-result">Python</div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+            </div>
+            <div class="col-5 pt-4 right">
+              <div class="title-result">Bootstrap</div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="portfolio-area section-gap pt-5 text-center col-md-12 float-md-end mb-4 ms-md-4" id="portfolio">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-70 col-md-auto">
+            <div class="title text-center">
+              <h1 class="mb-12 pb-3">My Projects</h1>
+            </div>
+          </div>
+        </div>
+        <div class="filters-content">
+          <div class="row grid" style="position: relative; height: 866.594px;">
+            <div class="single-portfolio col-4 all vector" >
+              <div class="clearfix">
+                <a href="No Projects.html" class="img-pop-up">
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="picture/anjing.webp" alt=""></div>
+                  </div>
+                </a>
+              </div>
+              <div class="p-inner">
+                <h4>Anjing</h4>
+                <div class="fw-normal">hewan</div>
+              </div>
+            </div>
+            <div class="single-portfolio col-4 all raster">
+              <div class="clearfix">
+                <a href="No Projects.html" class="img-pop-up">
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="picture/piring.jfif" alt=""></div>
+                  </div>
+                </a>
+              </div>
+              <div class="p-inner">
+                <h4>Piring</h4>
+                <div class="fw-normal">benda</div>
+              </div>
+          </div>
+          <div class="single-portfolio col-4 all ui">
+            <div class="clearfix">
+              <a href="No Projects.html" class="img-pop-up">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="picture/bunga.webp" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <h4>Bunga</h4>
+              <div class="fw-normal">Tumbuhan</div>
+            </div>
+          </div>
+          <div class="single-portfolio col-4 all printing">
+            <div class="clearfix">
+              <a href="No Projects.html" class="img-pop-up">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="picture/anjing.webp" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <h4>Anjing</h4>
+              <div class="fw-normal">hewan</div>
+            </div>
+          </div>
+          <div class="single-portfolio col-4 all vector">
+            <div class="clearfix">
+              <a href="No Projects.html" class="img-pop-up">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="picture/piring.jfif" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <h4>Piring</h4>
+              <div class="fw-normal">benda</div>
+            </div>
+          </div>
+          <div class="single-portfolio col-4 all raster">
+            <div class="clearfix">
+              <a href="No Projects.html" class="img-pop-up">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="picture/bunga.webp" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <h4>Bunga</h4>
+              <div class="fw-normal">Tumbuhan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pt-5" id="footer">
+      <div class="container-footer text-center pt-3">
+        <a href="https://www.whatsapp.com" target="_blank"  rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-whatsapp  m-2 md:m-2" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank"  rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-linkedin  m-2 md:m-2" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com" target="_blank"  rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-facebook  m-2 md:m-2" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com" target="_blank"  rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-instagram  m-2 md:m-2" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg>
+        </a>
+        <p class="text-center pt-3">Copyright &copy; Ikhsan Ramadani 2022.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.navigasi{
+	background-color:transparent;
+	color:white;
+	font-size:35px;
+	overflow:hidden;
+	list-style:none;
+	width: 100%;
+	margin:0px;
+}
+.navigasi li{
+	float:left;
+	margin:10px;
+}
+.gambar{
+	width:300px;
+	height:300px;
+	border-radius:100%;
+	margin: 30px;
+}
+#about{
+	font-size:20px;
+	font-family:Arial;
+}
+body{
+	background-color:black;
+}
+.onepiece{
+	height:175px;
+	width:150px;
+	margin:15px ;
+	border-radius:5px;
+	background-color: black;
+}
+.onepiece:hover{
+	transform:scale(1,1.2);
+}
+.icon{
+	height:45px;
+	width:45px;
+}
+#Home{
+	color:black;
+}
+.navigasi a:hover{
+	text-decoration:underline;
+	color:lightcyan;
+}
+*{
+	text-decoration:none;color: white;
+}
+.tabel tr{
+  	border: 1px ;
+  	border-collapse: collapse;
+  	background-color:black;
+  	text-align:left;
+  	color: black;
+}
+.tabel tr :hover{
+	color:black;
+}
+.td tr{
+	color: black;
+}
+.togel{
+	text-align: center;
+}
+}
+input{
+	color: black;
+}
+.form{
+	color:black;
+	border-color: white;
+}
+td{
+	padding:5px;
+	margin:0px;
+}
+fieldset{
+	background-color:white;
+}
+laki-laki{
+	color: black;
+}

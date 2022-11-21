@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variabel dan Tipedata</title>
+</head>
+<body>
+  <div id="fullName">
+    Nama : <h2 id="Name"></h2>
+  </div>
+  <div id="Status">
+    Status :<h2 id="status"></h2>
+  </div>
+  <div id="age">
+    Umur : <h2 id="umur"></h2>
+  </div>
+  <div id="instagram">
+    Link instagram : <a href="" id="ig">Clik Me</a>
+  </div>
+  <script>
+    // membuat variabel
+    var fullName = "Ikhsan Ramadani";
+    var Status = "Jomblo";
+    var age ="15";
+    var instagram ="https://www.instagram.com"
+    
+    var id_Name =document.getElementById("Name").innerHTML = fullName;
+    var id_status =document.getElementById("status").innerHTML = Status;
+    var id_umur =document.getElementById("umur").innerHTML = age + 'Tahun';//
+    var id_ig =document.getElementById("ig").href = instagram;
+
+    // menampilkan variabel ke dalam HTML
+    //document.write("Nama: " + fullName + "<br>");
+    //document.write("Status: " + Status + "<br>");
+    //document.write("Alamat URL: " + instagram + "<br>");
+    //document.write("Umur :"+age+"<br>");
+  </script>
+</body>
+</html>

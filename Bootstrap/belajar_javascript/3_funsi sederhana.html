@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fungsi output Javascript</title>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" integrity="sha384-fZCoUih8XsaUZnNDOiLqnby1tMJ0sE7oBbNk2Xxf5x8Z4SvNQ9j83vFMa/erbVrV" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button onclick="killme()">kill me</button>
+  <button onclick="loveme()">love me</button>
+  <button onclick="kon()">kon</button>
+  <h1 id="output"></h1>
+  <h2 id="output2"></h2>
+  <script>
+    var hasil = document.getElementById("output");//variabel untuk menampung pada tag id output
+    var hasil2 = document.getElementById("output2");
+    function killme() {//menampilkan mana sempat keburu telat
+      hasil.innerHTML =" <h1>mana sempat keburu telat </h1>";
+    }
+    function loveme() {
+      hasil2.innerHTML ="<h1>nooooo</h1>";
+    }
+    function kon() {
+      hasil.innerHTML  ="<h1>ahuduag</h1>";
+    }
+  </script>
+  <select id="pilih" onchange="pilihan()" >
+    <option value="anya">anya</option>
+    <option value="obi">obi</option>
+  </select>
+  <h1 id="output"></h1>
+  <script>
+    var pilih= document.getElementById('pilih');
+    var hasil = document.getElementById('output');
+    function pilihan() {
+      if (pilih.value =='anya') {
+        hasil.innerHTML="tolo"
+      }
+      else if(pilih.value =='obi') {
+        hasil.innerHTML="gg";
+      }
+    }
+  </script>
+</body>
+</html>
